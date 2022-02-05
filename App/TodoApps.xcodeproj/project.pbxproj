@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D7F9F01527AE073800DFD726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F01427AE073800DFD726 /* AppDelegate.swift */; };
-		D7F9F01F27AE073800DFD726 /* App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F01D27AE073800DFD726 /* App.xcdatamodeld */; };
 		D7F9F02127AE073900DFD726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F02027AE073900DFD726 /* Assets.xcassets */; };
 		D7F9F02427AE073900DFD726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F02227AE073900DFD726 /* LaunchScreen.storyboard */; };
 		D7F9F02F27AE073900DFD726 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F02E27AE073900DFD726 /* AppTests.swift */; };
@@ -75,7 +74,6 @@
 		D7F9F12A27AEC9A000DFD726 /* BuyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F12927AEC9A000DFD726 /* BuyListViewController.swift */; };
 		D7F9F12D27AECA8900DFD726 /* ProductItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F12B27AECA8900DFD726 /* ProductItemCell.swift */; };
 		D7F9F12E27AECA8900DFD726 /* ProductItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F12C27AECA8900DFD726 /* ProductItemCell.xib */; };
-		D7F9F13027AECC6400DFD726 /* BuyItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F12F27AECC6400DFD726 /* BuyItemDTO.swift */; };
 		D7F9F13227AECC9800DFD726 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13127AECC9800DFD726 /* ProductItem.swift */; };
 		D7F9F13427AECD1B00DFD726 /* NetworkBuyListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13327AECD1B00DFD726 /* NetworkBuyListRepository.swift */; };
 		D7F9F13627AECD2600DFD726 /* DummyBuyListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13527AECD2600DFD726 /* DummyBuyListRepository.swift */; };
@@ -87,11 +85,15 @@
 		D7F9F14227AEDC1400DFD726 /* CoreDataSellListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14127AEDC1400DFD726 /* CoreDataSellListRepository.swift */; };
 		D7F9F14427AEDC2300DFD726 /* DummySellListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14327AEDC2300DFD726 /* DummySellListRepository.swift */; };
 		D7F9F14627AEDC3700DFD726 /* SellListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14527AEDC3700DFD726 /* SellListRepository.swift */; };
-		D7F9F14A27AEDCCA00DFD726 /* SellItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14927AEDCCA00DFD726 /* SellItemDTO.swift */; };
 		D7F9F14C27AEDD3E00DFD726 /* SellListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14B27AEDD3E00DFD726 /* SellListUseCase.swift */; };
 		D7F9F14E27AEDD6600DFD726 /* SellListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14D27AEDD6600DFD726 /* SellListUseCaseImpl.swift */; };
 		D7F9F15227AEDDE100DFD726 /* SellListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15127AEDDE100DFD726 /* SellListViewModel.swift */; };
 		D7F9F15427AEDE1300DFD726 /* SellListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15327AEDE1300DFD726 /* SellListViewController.swift */; };
+		D7F9F15C27AEED3F00DFD726 /* ProductItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15B27AEED3F00DFD726 /* ProductItemDTO.swift */; };
+		D7F9F15E27AEEDAC00DFD726 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15D27AEEDAC00DFD726 /* CoreDataStack.swift */; };
+		D7F9F16027AEEF2500DFD726 /* BaseCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15F27AEEF2500DFD726 /* BaseCoreData.swift */; };
+		D7F9F16527AEF5F500DFD726 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15827AEEB7A00DFD726 /* Data.xcdatamodeld */; };
+		D7F9F16727AEF6E700DFD726 /* NSPersistentContainer+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F16627AEF6E700DFD726 /* NSPersistentContainer+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,7 +184,6 @@
 /* Begin PBXFileReference section */
 		D7F9F01127AE073800DFD726 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9F01427AE073800DFD726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7F9F01E27AE073800DFD726 /* App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App.xcdatamodel; sourceTree = "<group>"; };
 		D7F9F02027AE073900DFD726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F9F02327AE073900DFD726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F9F02527AE073900DFD726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -242,7 +243,6 @@
 		D7F9F12927AEC9A000DFD726 /* BuyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListViewController.swift; sourceTree = "<group>"; };
 		D7F9F12B27AECA8900DFD726 /* ProductItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemCell.swift; sourceTree = "<group>"; };
 		D7F9F12C27AECA8900DFD726 /* ProductItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductItemCell.xib; sourceTree = "<group>"; };
-		D7F9F12F27AECC6400DFD726 /* BuyItemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemDTO.swift; sourceTree = "<group>"; };
 		D7F9F13127AECC9800DFD726 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		D7F9F13327AECD1B00DFD726 /* NetworkBuyListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBuyListRepository.swift; sourceTree = "<group>"; };
 		D7F9F13527AECD2600DFD726 /* DummyBuyListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyBuyListRepository.swift; sourceTree = "<group>"; };
@@ -254,11 +254,15 @@
 		D7F9F14127AEDC1400DFD726 /* CoreDataSellListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSellListRepository.swift; sourceTree = "<group>"; };
 		D7F9F14327AEDC2300DFD726 /* DummySellListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummySellListRepository.swift; sourceTree = "<group>"; };
 		D7F9F14527AEDC3700DFD726 /* SellListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListRepository.swift; sourceTree = "<group>"; };
-		D7F9F14927AEDCCA00DFD726 /* SellItemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellItemDTO.swift; sourceTree = "<group>"; };
 		D7F9F14B27AEDD3E00DFD726 /* SellListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListUseCase.swift; sourceTree = "<group>"; };
 		D7F9F14D27AEDD6600DFD726 /* SellListUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListUseCaseImpl.swift; sourceTree = "<group>"; };
 		D7F9F15127AEDDE100DFD726 /* SellListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListViewModel.swift; sourceTree = "<group>"; };
 		D7F9F15327AEDE1300DFD726 /* SellListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListViewController.swift; sourceTree = "<group>"; };
+		D7F9F15927AEEB7A00DFD726 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		D7F9F15B27AEED3F00DFD726 /* ProductItemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemDTO.swift; sourceTree = "<group>"; };
+		D7F9F15D27AEEDAC00DFD726 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D7F9F15F27AEEF2500DFD726 /* BaseCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoreData.swift; sourceTree = "<group>"; };
+		D7F9F16627AEF6E700DFD726 /* NSPersistentContainer+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPersistentContainer+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,7 +533,6 @@
 				D7F9F02027AE073900DFD726 /* Assets.xcassets */,
 				D7F9F02227AE073900DFD726 /* LaunchScreen.storyboard */,
 				D7F9F02527AE073900DFD726 /* Info.plist */,
-				D7F9F01D27AE073800DFD726 /* App.xcdatamodeld */,
 				D7F9F01427AE073800DFD726 /* AppDelegate.swift */,
 			);
 			path = Resources;
@@ -646,6 +649,7 @@
 		D7F9F0F227AE323000DFD726 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				D7F9F16127AEEF4B00DFD726 /* CoreData */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -671,8 +675,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F9F10127AE36D400DFD726 /* ContactDTO.swift */,
-				D7F9F12F27AECC6400DFD726 /* BuyItemDTO.swift */,
-				D7F9F14927AEDCCA00DFD726 /* SellItemDTO.swift */,
+				D7F9F15B27AEED3F00DFD726 /* ProductItemDTO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -720,6 +723,17 @@
 				D7F9F12C27AECA8900DFD726 /* ProductItemCell.xib */,
 			);
 			path = ProductItemCell;
+			sourceTree = "<group>";
+		};
+		D7F9F16127AEEF4B00DFD726 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D7F9F15827AEEB7A00DFD726 /* Data.xcdatamodeld */,
+				D7F9F15D27AEEDAC00DFD726 /* CoreDataStack.swift */,
+				D7F9F15F27AEEF2500DFD726 /* BaseCoreData.swift */,
+				D7F9F16627AEF6E700DFD726 /* NSPersistentContainer+Ext.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1011,7 +1025,6 @@
 				D7F9F10827AE754000DFD726 /* Optional+Ext.swift in Sources */,
 				D7F9F12427AE85AD00DFD726 /* ErrorTracker.swift in Sources */,
 				D7F9F0A127AE09D800DFD726 /* FirebaseAnalytics.swift in Sources */,
-				D7F9F01F27AE073800DFD726 /* App.xcdatamodeld in Sources */,
 				D7F9F0E127AE28B900DFD726 /* ContactCell.swift in Sources */,
 				D7F9F01527AE073800DFD726 /* AppDelegate.swift in Sources */,
 				D7F9F09527AE093B00DFD726 /* ViewModelTransformable.swift in Sources */,
@@ -1071,16 +1084,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F9F10227AE36D400DFD726 /* ContactDTO.swift in Sources */,
-				D7F9F13027AECC6400DFD726 /* BuyItemDTO.swift in Sources */,
 				D7F9F0F627AE324D00DFD726 /* NetworkCallListRepository.swift in Sources */,
-				D7F9F14A27AEDCCA00DFD726 /* SellItemDTO.swift in Sources */,
 				D7F9F0F427AE324200DFD726 /* DummyCallListRepository.swift in Sources */,
+				D7F9F15E27AEEDAC00DFD726 /* CoreDataStack.swift in Sources */,
 				D7F9F11127AE7A0700DFD726 /* DemoAPIs.swift in Sources */,
+				D7F9F16527AEF5F500DFD726 /* Data.xcdatamodeld in Sources */,
 				D7F9F13427AECD1B00DFD726 /* NetworkBuyListRepository.swift in Sources */,
+				D7F9F15C27AEED3F00DFD726 /* ProductItemDTO.swift in Sources */,
 				D7F9F14427AEDC2300DFD726 /* DummySellListRepository.swift in Sources */,
 				D7F9F10A27AE771C00DFD726 /* APIClient.swift in Sources */,
 				D7F9F14227AEDC1400DFD726 /* CoreDataSellListRepository.swift in Sources */,
 				D7F9F13627AECD2600DFD726 /* DummyBuyListRepository.swift in Sources */,
+				D7F9F16027AEEF2500DFD726 /* BaseCoreData.swift in Sources */,
+				D7F9F16727AEF6E700DFD726 /* NSPersistentContainer+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1699,13 +1715,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		D7F9F01D27AE073800DFD726 /* App.xcdatamodeld */ = {
+		D7F9F15827AEEB7A00DFD726 /* Data.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D7F9F01E27AE073800DFD726 /* App.xcdatamodel */,
+				D7F9F15927AEEB7A00DFD726 /* Data.xcdatamodel */,
 			);
-			currentVersion = D7F9F01E27AE073800DFD726 /* App.xcdatamodel */;
-			path = App.xcdatamodeld;
+			currentVersion = D7F9F15927AEEB7A00DFD726 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

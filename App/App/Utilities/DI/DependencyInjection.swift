@@ -71,8 +71,7 @@ final class DependencyInjection {
     static private func configProduction() {
         container.register(CallListRepository.self) { _ in NetworkCallListRepository() }
         container.register(BuyListRepository.self) { _ in NetworkBuyListRepository() }
-//        container.register(SellListRepository.self) { _ in CoreDataSellListRepository() }
-        container.register(SellListRepository.self) { _ in DummySellListRepository() }
+        container.register(SellListRepository.self) { _ in CoreDataSellListRepository() }
     }
     
     static private func configTest() {

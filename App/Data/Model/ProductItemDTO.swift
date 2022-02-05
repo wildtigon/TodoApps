@@ -1,14 +1,14 @@
 //
-//  SellItemDTO.swift
+//  ProductItemDTO.swift
 //  Data
 //
-//  Created by Nguyen Tien Dat on 2/5/22.
+//  Created by Nguyen Tien Dat on 2/6/22.
 //
 
 import Foundation
 import Domain
 
-public struct SellItemDTO: Codable {
+public struct ProductItemDTO: Codable {
     let id: Int
     let name: String
     let price: Double
@@ -19,3 +19,4 @@ public struct SellItemDTO: Codable {
         ProductItem(id: id, name: name, price: price, quantity: quantity, type: type)
     }
 }
+

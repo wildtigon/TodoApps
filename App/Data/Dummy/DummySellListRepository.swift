@@ -13,9 +13,9 @@ public class DummySellListRepository: SellListRepository {
     
     public func fetchSellListItem(completion: @escaping ((Result<[ProductItem], Error>) -> Void)) {
         completion(.success([
-            SellItemDTO(id: 1, name: "Macbook", price: 1000, quantity: 2, type: 1),
-            SellItemDTO(id: 2, name: "iPad", price: 500, quantity: 2, type: 1),
-            SellItemDTO(id: 3, name: "iPhone", price: 900, quantity: 2, type: 1),
+            ProductItemDTO(id: 1, name: "Macbook", price: 1000, quantity: 2, type: 2),
+            ProductItemDTO(id: 2, name: "iPad", price: 500, quantity: 2, type: 2),
+            ProductItemDTO(id: 3, name: "iPhone", price: 900, quantity: 2, type: 2),
         ].map(\.asDomain)))
     }
 }

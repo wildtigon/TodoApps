@@ -14,7 +14,7 @@ public class NetworkBuyListRepository: BuyListRepository {
         APIClient.shared.provider.request(MultiTarget(DemoAPIs.buylist)) { result in
             switch result {
             case .success(let response):
-                if let contacts = try? JSONDecoder().decode([BuyItemDTO].self, from: response.data) {
+                if let contacts = try? JSONDecoder().decode([ProductItemDTO].self, from: response.data) {
                     completion(.success(contacts.map(\.asDomain)))
                 } else {
                     let err = NSError(domain: "Can't parse object", code: 0, userInfo: nil)
