@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D728CF1F27AF9A8B0077E185 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF1E27AF9A8B0077E185 /* RxCocoa */; };
-		D728CF2127AF9A8B0077E185 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2027AF9A8B0077E185 /* RxSwift */; };
 		D728CF2427AF9ACD0077E185 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2327AF9ACD0077E185 /* Moya */; };
 		D728CF2727AF9AFD0077E185 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2627AF9AFD0077E185 /* Swinject */; };
 		D728CF2A27AF9B150077E185 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2927AF9B150077E185 /* NVActivityIndicatorView */; };
 		D728CF2E27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF2D27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift */; };
 		D728CF3227AF9FFB0077E185 /* ContactDTOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF3127AF9FFB0077E185 /* ContactDTOTest.swift */; };
 		D728CF3427AFA0B30077E185 /* ProductItemDTOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF3327AFA0B30077E185 /* ProductItemDTOTest.swift */; };
+		D728CF3B27AFA3330077E185 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF3A27AFA3330077E185 /* RxCocoa */; };
+		D728CF3D27AFA3330077E185 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF3C27AFA3330077E185 /* RxSwift */; };
+		D728CF3F27AFA3330077E185 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF3E27AFA3330077E185 /* RxTest */; };
+		D728CF4127AFA3950077E185 /* CallListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF4027AFA3950077E185 /* CallListViewModelTest.swift */; };
+		D728CF4327AFA86E0077E185 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF4227AFA86E0077E185 /* RxTest */; };
 		D7F9F01527AE073800DFD726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F01427AE073800DFD726 /* AppDelegate.swift */; };
 		D7F9F02127AE073900DFD726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F02027AE073900DFD726 /* Assets.xcassets */; };
 		D7F9F02427AE073900DFD726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F02227AE073900DFD726 /* LaunchScreen.storyboard */; };
-		D7F9F02F27AE073900DFD726 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F02E27AE073900DFD726 /* AppTests.swift */; };
 		D7F9F05427AE07D600DFD726 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; };
 		D7F9F05B27AE07D600DFD726 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F05A27AE07D600DFD726 /* DomainTests.swift */; };
 		D7F9F05C27AE07D600DFD726 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F9F04E27AE07D600DFD726 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -191,13 +193,13 @@
 		D728CF2D27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProductListRepositoryTest.swift; sourceTree = "<group>"; };
 		D728CF3127AF9FFB0077E185 /* ContactDTOTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDTOTest.swift; sourceTree = "<group>"; };
 		D728CF3327AFA0B30077E185 /* ProductItemDTOTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemDTOTest.swift; sourceTree = "<group>"; };
+		D728CF4027AFA3950077E185 /* CallListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListViewModelTest.swift; sourceTree = "<group>"; };
 		D7F9F01127AE073800DFD726 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9F01427AE073800DFD726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F9F02027AE073900DFD726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F9F02327AE073900DFD726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F9F02527AE073900DFD726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7F9F02A27AE073900DFD726 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F9F02E27AE073900DFD726 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		D7F9F04C27AE07D600DFD726 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9F04E27AE07D600DFD726 /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		D7F9F05327AE07D600DFD726 /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,9 +284,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D728CF1F27AF9A8B0077E185 /* RxCocoa in Frameworks */,
 				D728CF2A27AF9B150077E185 /* NVActivityIndicatorView in Frameworks */,
 				D7F9F08027AE080D00DFD726 /* Data.framework in Frameworks */,
+				D728CF3B27AFA3330077E185 /* RxCocoa in Frameworks */,
 				D7F9F05F27AE07D600DFD726 /* Domain.framework in Frameworks */,
 				D728CF2727AF9AFD0077E185 /* Swinject in Frameworks */,
 			);
@@ -294,6 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D728CF4327AFA86E0077E185 /* RxTest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +304,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D728CF2127AF9A8B0077E185 /* RxSwift in Frameworks */,
+				D728CF3D27AFA3330077E185 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +312,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D728CF3F27AFA3330077E185 /* RxTest in Frameworks */,
 				D7F9F05427AE07D600DFD726 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +405,7 @@
 		D7F9F02D27AE073900DFD726 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F02E27AE073900DFD726 /* AppTests.swift */,
+				D728CF4027AFA3950077E185 /* CallListViewModelTest.swift */,
 			);
 			path = AppTests;
 			sourceTree = "<group>";
@@ -462,7 +466,6 @@
 				D7F9F0BB27AE0B2900DFD726 /* ScreenCordinator.swift */,
 				D7F9F0C127AE0E9A00DFD726 /* CallList */,
 				D7F9F0B627AE0AF200DFD726 /* Home */,
-				D7F9F17327AF6AE300DFD726 /* GenericTableView */,
 				D7F9F17627AF80CF00DFD726 /* ProductList */,
 			);
 			path = Scenes;
@@ -738,6 +741,7 @@
 		D7F9F15527AEE00400DFD726 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				D7F9F17327AF6AE300DFD726 /* GenericTableView */,
 				D7F9F15627AEE00B00DFD726 /* Cells */,
 			);
 			path = Common;
@@ -803,9 +807,9 @@
 		D7F9F17627AF80CF00DFD726 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
+				D7F9F17B27AF846F00DFD726 /* ProductItem+CellDescriptor.swift */,
 				D7F9F0BF27AE0E8700DFD726 /* BuyList */,
 				D7F9F0C027AE0E9400DFD726 /* SellList */,
-				D7F9F17B27AF846F00DFD726 /* ProductItem+CellDescriptor.swift */,
 			);
 			path = ProductList;
 			sourceTree = "<group>";
@@ -849,9 +853,9 @@
 			);
 			name = App;
 			packageProductDependencies = (
-				D728CF1E27AF9A8B0077E185 /* RxCocoa */,
 				D728CF2627AF9AFD0077E185 /* Swinject */,
 				D728CF2927AF9B150077E185 /* NVActivityIndicatorView */,
+				D728CF3A27AFA3330077E185 /* RxCocoa */,
 			);
 			productName = App;
 			productReference = D7F9F01127AE073800DFD726 /* App.app */;
@@ -871,6 +875,9 @@
 				D7F9F02C27AE073900DFD726 /* PBXTargetDependency */,
 			);
 			name = AppTests;
+			packageProductDependencies = (
+				D728CF4227AFA86E0077E185 /* RxTest */,
+			);
 			productName = AppTests;
 			productReference = D7F9F02A27AE073900DFD726 /* AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -890,7 +897,7 @@
 			);
 			name = Domain;
 			packageProductDependencies = (
-				D728CF2027AF9A8B0077E185 /* RxSwift */,
+				D728CF3C27AFA3330077E185 /* RxSwift */,
 			);
 			productName = Domain;
 			productReference = D7F9F04C27AE07D600DFD726 /* Domain.framework */;
@@ -911,6 +918,9 @@
 				D7F9F05827AE07D600DFD726 /* PBXTargetDependency */,
 			);
 			name = DomainTests;
+			packageProductDependencies = (
+				D728CF3E27AFA3330077E185 /* RxTest */,
+			);
 			productName = DomainTests;
 			productReference = D7F9F05327AE07D600DFD726 /* DomainTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -1002,10 +1012,10 @@
 			);
 			mainGroup = D7F9F00827AE073800DFD726;
 			packageReferences = (
-				D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				D728CF2227AF9ACD0077E185 /* XCRemoteSwiftPackageReference "Moya" */,
 				D728CF2527AF9AFD0077E185 /* XCRemoteSwiftPackageReference "Swinject" */,
 				D728CF2827AF9B140077E185 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				D728CF3927AFA3330077E185 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = D7F9F01227AE073800DFD726 /* Products */;
 			projectDirPath = "";
@@ -1126,7 +1136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F9F02F27AE073900DFD726 /* AppTests.swift in Sources */,
+				D728CF4127AFA3950077E185 /* CallListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1723,14 +1733,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 6.5.0;
-			};
-		};
 		D728CF2227AF9ACD0077E185 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
@@ -1755,19 +1757,17 @@
 				version = 5.1.1;
 			};
 		};
+		D728CF3927AFA3330077E185 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D728CF1E27AF9A8B0077E185 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		D728CF2027AF9A8B0077E185 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
 		D728CF2327AF9ACD0077E185 /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D728CF2227AF9ACD0077E185 /* XCRemoteSwiftPackageReference "Moya" */;
@@ -1782,6 +1782,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D728CF2827AF9B140077E185 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
 			productName = NVActivityIndicatorView;
+		};
+		D728CF3A27AFA3330077E185 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D728CF3927AFA3330077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D728CF3C27AFA3330077E185 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D728CF3927AFA3330077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		D728CF3E27AFA3330077E185 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D728CF3927AFA3330077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		D728CF4227AFA86E0077E185 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D728CF3927AFA3330077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
 		};
 /* End XCSwiftPackageProductDependency section */
 

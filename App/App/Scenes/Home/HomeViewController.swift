@@ -49,6 +49,5 @@ final class HomeViewController: RxBaseViewController<HomeViewModel> {
                 ScreenCordinator.showBuyListScreen()
             }
             .disposed(by: disposeBag)
-
     }
 }

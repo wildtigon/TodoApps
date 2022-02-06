@@ -12,6 +12,7 @@ class BaseViewController<VM: ViewModelTransformable>: UIViewController {
     
     let viewModel: VM
     let analyticsService: AnalyticsService?
+    lazy var screenName: String = {"\(Self.self)"}()
     
     init(viewModel: VM, analyticsService: AnalyticsService? = nil, nibName: String? = nil) {
         self.viewModel = viewModel
@@ -24,6 +25,21 @@ class BaseViewController<VM: ViewModelTransformable>: UIViewController {
     }
     
     deinit {
-        debugPrint("🚀 \(Self.self) deinit")
+        debugPrint("🚀 \(screenName) deinit")
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        analyticsService?.trackScreen(screenName: screenName)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        analyticsService?.startTrack(screenName: screenName)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        analyticsService?.endTrack(screenName: screenName, properties: [:])
     }
 }

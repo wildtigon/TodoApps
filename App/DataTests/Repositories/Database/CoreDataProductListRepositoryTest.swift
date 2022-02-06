@@ -21,7 +21,7 @@ class CoreDataProductListRepositoryTest: XCTestCase {
         repo?.dropMe()
     }
     
-    func test_repo_can_be_inited() {
+    func test_repo_can_be_initiated() {
         XCTAssertNotNil(repo)
     }
     

@@ -13,7 +13,11 @@ let container = Container()
 final class DependencyInjection {
     
     static func config(with analyticsService: AnalyticsService?) {
-        configProduction()
+        if ProcessInfo.processInfo.environment["APP_IS_RUNNING_TEST"] == "YES" {
+            configTest()
+        } else {
+            configProduction()
+        }
         genericConfigs(with: analyticsService)
     }
     
