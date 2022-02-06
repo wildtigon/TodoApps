@@ -1,5 +1,5 @@
 //
-//  DummyBuyListRepository.swift
+//  RemoteProductListRepositoryDummy.swift
 //  Data
 //
 //  Created by Nguyen Tien Dat on 2/5/22.
@@ -8,7 +8,7 @@
 import Foundation
 import Domain
 
-public class DummyBuyListRepository: BuyListRepository {
+public class RemoteProductListRepositoryDummy: RemoteProductListRepository {
     public init(){}
     public func fetchBuyListItem(completion: @escaping ((Result<[ProductItem], Error>) -> Void)) {
         completion(.success([

@@ -1,5 +1,5 @@
 //
-//  NetworkBuyListRepository.swift
+//  RemoteProductListRepositoryImpl.swift
 //  Data
 //
 //  Created by Nguyen Tien Dat on 2/5/22.
@@ -8,7 +8,7 @@
 import Domain
 import Moya
 
-public class NetworkBuyListRepository: BuyListRepository {
+public class RemoteProductListRepositoryImpl: RemoteProductListRepository {
     public init(){}
     public func fetchBuyListItem(completion: @escaping ((Result<[ProductItem], Error>) -> Void)) {
         APIClient.shared.provider.request(MultiTarget(DemoAPIs.buylist)) { result in

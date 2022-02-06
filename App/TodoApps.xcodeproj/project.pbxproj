@@ -51,9 +51,9 @@
 		D7F9F0EB27AE2FE100DFD726 /* CallListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0EA27AE2FE000DFD726 /* CallListUseCaseImpl.swift */; };
 		D7F9F0EE27AE311F00DFD726 /* CallListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0EC27AE300200DFD726 /* CallListUseCase.swift */; };
 		D7F9F0EF27AE314500DFD726 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0DB27AE288D00DFD726 /* Contact.swift */; };
-		D7F9F0F427AE324200DFD726 /* DummyCallListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0F327AE324200DFD726 /* DummyCallListRepository.swift */; };
-		D7F9F0F627AE324D00DFD726 /* NetworkCallListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0F527AE324D00DFD726 /* NetworkCallListRepository.swift */; };
-		D7F9F0F927AE327400DFD726 /* CallListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0F827AE327400DFD726 /* CallListRepository.swift */; };
+		D7F9F0F427AE324200DFD726 /* RemoteCallListRepositoryDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0F327AE324200DFD726 /* RemoteCallListRepositoryDummy.swift */; };
+		D7F9F0F627AE324D00DFD726 /* RemoteCallListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0F527AE324D00DFD726 /* RemoteCallListRepositoryImpl.swift */; };
+		D7F9F0F927AE327400DFD726 /* RemoteCallListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0F827AE327400DFD726 /* RemoteCallListRepository.swift */; };
 		D7F9F0FB27AE32E600DFD726 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; };
 		D7F9F0FC27AE32E600DFD726 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D7F9F10227AE36D400DFD726 /* ContactDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F10127AE36D400DFD726 /* ContactDTO.swift */; };
@@ -75,16 +75,16 @@
 		D7F9F12D27AECA8900DFD726 /* ProductItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F12B27AECA8900DFD726 /* ProductItemCell.swift */; };
 		D7F9F12E27AECA8900DFD726 /* ProductItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F12C27AECA8900DFD726 /* ProductItemCell.xib */; };
 		D7F9F13227AECC9800DFD726 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13127AECC9800DFD726 /* ProductItem.swift */; };
-		D7F9F13427AECD1B00DFD726 /* NetworkBuyListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13327AECD1B00DFD726 /* NetworkBuyListRepository.swift */; };
-		D7F9F13627AECD2600DFD726 /* DummyBuyListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13527AECD2600DFD726 /* DummyBuyListRepository.swift */; };
-		D7F9F13827AECD3C00DFD726 /* BuyListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13727AECD3C00DFD726 /* BuyListRepository.swift */; };
+		D7F9F13427AECD1B00DFD726 /* RemoteProductListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13327AECD1B00DFD726 /* RemoteProductListRepositoryImpl.swift */; };
+		D7F9F13627AECD2600DFD726 /* RemoteProductListRepositoryDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13527AECD2600DFD726 /* RemoteProductListRepositoryDummy.swift */; };
+		D7F9F13827AECD3C00DFD726 /* RemoteProductListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13727AECD3C00DFD726 /* RemoteProductListRepository.swift */; };
 		D7F9F13A27AECF3100DFD726 /* BuyListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13927AECF3100DFD726 /* BuyListUseCase.swift */; };
 		D7F9F13C27AECF3B00DFD726 /* BuyListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13B27AECF3B00DFD726 /* BuyListUseCaseImpl.swift */; };
 		D7F9F13E27AED2F700DFD726 /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13D27AED2F700DFD726 /* UITableViewCell+Ext.swift */; };
 		D7F9F14027AED32400DFD726 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F13F27AED32400DFD726 /* UITableView+Ext.swift */; };
-		D7F9F14227AEDC1400DFD726 /* CoreDataSellListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14127AEDC1400DFD726 /* CoreDataSellListRepository.swift */; };
-		D7F9F14427AEDC2300DFD726 /* DummySellListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14327AEDC2300DFD726 /* DummySellListRepository.swift */; };
-		D7F9F14627AEDC3700DFD726 /* SellListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14527AEDC3700DFD726 /* SellListRepository.swift */; };
+		D7F9F14227AEDC1400DFD726 /* CoreDataProductListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14127AEDC1400DFD726 /* CoreDataProductListRepositoryImpl.swift */; };
+		D7F9F14427AEDC2300DFD726 /* LocalProductListRepositoryDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14327AEDC2300DFD726 /* LocalProductListRepositoryDummy.swift */; };
+		D7F9F14627AEDC3700DFD726 /* LocalProductListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14527AEDC3700DFD726 /* LocalProductListRepository.swift */; };
 		D7F9F14C27AEDD3E00DFD726 /* SellListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14B27AEDD3E00DFD726 /* SellListUseCase.swift */; };
 		D7F9F14E27AEDD6600DFD726 /* SellListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F14D27AEDD6600DFD726 /* SellListUseCaseImpl.swift */; };
 		D7F9F15227AEDDE100DFD726 /* SellListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15127AEDDE100DFD726 /* SellListViewModel.swift */; };
@@ -94,6 +94,10 @@
 		D7F9F16027AEEF2500DFD726 /* BaseCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15F27AEEF2500DFD726 /* BaseCoreData.swift */; };
 		D7F9F16527AEF5F500DFD726 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F15827AEEB7A00DFD726 /* Data.xcdatamodeld */; };
 		D7F9F16727AEF6E700DFD726 /* NSPersistentContainer+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F16627AEF6E700DFD726 /* NSPersistentContainer+Ext.swift */; };
+		D7F9F17027AF05F800DFD726 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F16F27AF05F800DFD726 /* GenericTableViewController.swift */; };
+		D7F9F17527AF6AF700DFD726 /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F17427AF6AF700DFD726 /* CellDescriptor.swift */; };
+		D7F9F17C27AF846F00DFD726 /* ProductItem+CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F17B27AF846F00DFD726 /* ProductItem+CellDescriptor.swift */; };
+		D7F9F17E27AF88A500DFD726 /* Contact+CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F17D27AF88A500DFD726 /* Contact+CellDescriptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,9 +229,9 @@
 		D7F9F0E027AE28B900DFD726 /* ContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
 		D7F9F0EA27AE2FE000DFD726 /* CallListUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListUseCaseImpl.swift; sourceTree = "<group>"; };
 		D7F9F0EC27AE300200DFD726 /* CallListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListUseCase.swift; sourceTree = "<group>"; };
-		D7F9F0F327AE324200DFD726 /* DummyCallListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCallListRepository.swift; sourceTree = "<group>"; };
-		D7F9F0F527AE324D00DFD726 /* NetworkCallListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallListRepository.swift; sourceTree = "<group>"; };
-		D7F9F0F827AE327400DFD726 /* CallListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListRepository.swift; sourceTree = "<group>"; };
+		D7F9F0F327AE324200DFD726 /* RemoteCallListRepositoryDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCallListRepositoryDummy.swift; sourceTree = "<group>"; };
+		D7F9F0F527AE324D00DFD726 /* RemoteCallListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCallListRepositoryImpl.swift; sourceTree = "<group>"; };
+		D7F9F0F827AE327400DFD726 /* RemoteCallListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCallListRepository.swift; sourceTree = "<group>"; };
 		D7F9F10127AE36D400DFD726 /* ContactDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDTO.swift; sourceTree = "<group>"; };
 		D7F9F10727AE754000DFD726 /* Optional+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Ext.swift"; sourceTree = "<group>"; };
 		D7F9F10927AE771C00DFD726 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -244,16 +248,16 @@
 		D7F9F12B27AECA8900DFD726 /* ProductItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemCell.swift; sourceTree = "<group>"; };
 		D7F9F12C27AECA8900DFD726 /* ProductItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductItemCell.xib; sourceTree = "<group>"; };
 		D7F9F13127AECC9800DFD726 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
-		D7F9F13327AECD1B00DFD726 /* NetworkBuyListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBuyListRepository.swift; sourceTree = "<group>"; };
-		D7F9F13527AECD2600DFD726 /* DummyBuyListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyBuyListRepository.swift; sourceTree = "<group>"; };
-		D7F9F13727AECD3C00DFD726 /* BuyListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListRepository.swift; sourceTree = "<group>"; };
+		D7F9F13327AECD1B00DFD726 /* RemoteProductListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProductListRepositoryImpl.swift; sourceTree = "<group>"; };
+		D7F9F13527AECD2600DFD726 /* RemoteProductListRepositoryDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProductListRepositoryDummy.swift; sourceTree = "<group>"; };
+		D7F9F13727AECD3C00DFD726 /* RemoteProductListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProductListRepository.swift; sourceTree = "<group>"; };
 		D7F9F13927AECF3100DFD726 /* BuyListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListUseCase.swift; sourceTree = "<group>"; };
 		D7F9F13B27AECF3B00DFD726 /* BuyListUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListUseCaseImpl.swift; sourceTree = "<group>"; };
 		D7F9F13D27AED2F700DFD726 /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
 		D7F9F13F27AED32400DFD726 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
-		D7F9F14127AEDC1400DFD726 /* CoreDataSellListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSellListRepository.swift; sourceTree = "<group>"; };
-		D7F9F14327AEDC2300DFD726 /* DummySellListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummySellListRepository.swift; sourceTree = "<group>"; };
-		D7F9F14527AEDC3700DFD726 /* SellListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListRepository.swift; sourceTree = "<group>"; };
+		D7F9F14127AEDC1400DFD726 /* CoreDataProductListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProductListRepositoryImpl.swift; sourceTree = "<group>"; };
+		D7F9F14327AEDC2300DFD726 /* LocalProductListRepositoryDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalProductListRepositoryDummy.swift; sourceTree = "<group>"; };
+		D7F9F14527AEDC3700DFD726 /* LocalProductListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalProductListRepository.swift; sourceTree = "<group>"; };
 		D7F9F14B27AEDD3E00DFD726 /* SellListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListUseCase.swift; sourceTree = "<group>"; };
 		D7F9F14D27AEDD6600DFD726 /* SellListUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListUseCaseImpl.swift; sourceTree = "<group>"; };
 		D7F9F15127AEDDE100DFD726 /* SellListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListViewModel.swift; sourceTree = "<group>"; };
@@ -263,6 +267,10 @@
 		D7F9F15D27AEEDAC00DFD726 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		D7F9F15F27AEEF2500DFD726 /* BaseCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoreData.swift; sourceTree = "<group>"; };
 		D7F9F16627AEF6E700DFD726 /* NSPersistentContainer+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPersistentContainer+Ext.swift"; sourceTree = "<group>"; };
+		D7F9F16F27AF05F800DFD726 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
+		D7F9F17427AF6AF700DFD726 /* CellDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDescriptor.swift; sourceTree = "<group>"; };
+		D7F9F17B27AF846F00DFD726 /* ProductItem+CellDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItem+CellDescriptor.swift"; sourceTree = "<group>"; };
+		D7F9F17D27AF88A500DFD726 /* Contact+CellDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CellDescriptor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,9 +400,9 @@
 			isa = PBXGroup;
 			children = (
 				D7F9F10027AE36C900DFD726 /* Model */,
+				D7F9F10B27AE772500DFD726 /* Repositories */,
 				D7F9F0F227AE323000DFD726 /* Database */,
 				D7F9F0F127AE322A00DFD726 /* Network */,
-				D7F9F0F027AE322300DFD726 /* Dummy */,
 				D7F9F06F27AE080D00DFD726 /* Data.h */,
 			);
 			path = Data;
@@ -423,9 +431,9 @@
 			children = (
 				D7F9F0BB27AE0B2900DFD726 /* ScreenCordinator.swift */,
 				D7F9F0C127AE0E9A00DFD726 /* CallList */,
-				D7F9F0C027AE0E9400DFD726 /* SellList */,
-				D7F9F0BF27AE0E8700DFD726 /* BuyList */,
 				D7F9F0B627AE0AF200DFD726 /* Home */,
+				D7F9F17327AF6AE300DFD726 /* GenericTableView */,
+				D7F9F17627AF80CF00DFD726 /* ProductList */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -572,6 +580,7 @@
 				D7F9F0DD27AE289600DFD726 /* ContactCell */,
 				D7F9F0C427AE0ED100DFD726 /* CallListViewModel.swift */,
 				D7F9F0C227AE0EBF00DFD726 /* CallListViewController.swift */,
+				D7F9F17D27AF88A500DFD726 /* Contact+CellDescriptor.swift */,
 			);
 			path = CallList;
 			sourceTree = "<group>";
@@ -616,12 +625,8 @@
 		D7F9F0E927AE2FB600DFD726 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F0EC27AE300200DFD726 /* CallListUseCase.swift */,
-				D7F9F0EA27AE2FE000DFD726 /* CallListUseCaseImpl.swift */,
-				D7F9F13927AECF3100DFD726 /* BuyListUseCase.swift */,
-				D7F9F13B27AECF3B00DFD726 /* BuyListUseCaseImpl.swift */,
-				D7F9F14B27AEDD3E00DFD726 /* SellListUseCase.swift */,
-				D7F9F14D27AEDD6600DFD726 /* SellListUseCaseImpl.swift */,
+				D7F9F16827AF009E00DFD726 /* Protocol */,
+				D7F9F16927AF00A800DFD726 /* Implement */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -629,9 +634,9 @@
 		D7F9F0F027AE322300DFD726 /* Dummy */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F0F327AE324200DFD726 /* DummyCallListRepository.swift */,
-				D7F9F13527AECD2600DFD726 /* DummyBuyListRepository.swift */,
-				D7F9F14327AEDC2300DFD726 /* DummySellListRepository.swift */,
+				D7F9F0F327AE324200DFD726 /* RemoteCallListRepositoryDummy.swift */,
+				D7F9F13527AECD2600DFD726 /* RemoteProductListRepositoryDummy.swift */,
+				D7F9F14327AEDC2300DFD726 /* LocalProductListRepositoryDummy.swift */,
 			);
 			path = Dummy;
 			sourceTree = "<group>";
@@ -639,7 +644,6 @@
 		D7F9F0F127AE322A00DFD726 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F10B27AE772500DFD726 /* Repositories */,
 				D7F9F10927AE771C00DFD726 /* APIClient.swift */,
 				D7F9F11027AE7A0700DFD726 /* DemoAPIs.swift */,
 			);
@@ -657,9 +661,9 @@
 		D7F9F0F727AE325F00DFD726 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F0F827AE327400DFD726 /* CallListRepository.swift */,
-				D7F9F13727AECD3C00DFD726 /* BuyListRepository.swift */,
-				D7F9F14527AEDC3700DFD726 /* SellListRepository.swift */,
+				D7F9F0F827AE327400DFD726 /* RemoteCallListRepository.swift */,
+				D7F9F13727AECD3C00DFD726 /* RemoteProductListRepository.swift */,
+				D7F9F14527AEDC3700DFD726 /* LocalProductListRepository.swift */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -683,9 +687,10 @@
 		D7F9F10B27AE772500DFD726 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F0F527AE324D00DFD726 /* NetworkCallListRepository.swift */,
-				D7F9F13327AECD1B00DFD726 /* NetworkBuyListRepository.swift */,
-				D7F9F14127AEDC1400DFD726 /* CoreDataSellListRepository.swift */,
+				D7F9F0F027AE322300DFD726 /* Dummy */,
+				D7F9F0F527AE324D00DFD726 /* RemoteCallListRepositoryImpl.swift */,
+				D7F9F13327AECD1B00DFD726 /* RemoteProductListRepositoryImpl.swift */,
+				D7F9F14127AEDC1400DFD726 /* CoreDataProductListRepositoryImpl.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -734,6 +739,45 @@
 				D7F9F16627AEF6E700DFD726 /* NSPersistentContainer+Ext.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D7F9F16827AF009E00DFD726 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D7F9F0EC27AE300200DFD726 /* CallListUseCase.swift */,
+				D7F9F13927AECF3100DFD726 /* BuyListUseCase.swift */,
+				D7F9F14B27AEDD3E00DFD726 /* SellListUseCase.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D7F9F16927AF00A800DFD726 /* Implement */ = {
+			isa = PBXGroup;
+			children = (
+				D7F9F0EA27AE2FE000DFD726 /* CallListUseCaseImpl.swift */,
+				D7F9F13B27AECF3B00DFD726 /* BuyListUseCaseImpl.swift */,
+				D7F9F14D27AEDD6600DFD726 /* SellListUseCaseImpl.swift */,
+			);
+			path = Implement;
+			sourceTree = "<group>";
+		};
+		D7F9F17327AF6AE300DFD726 /* GenericTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D7F9F16F27AF05F800DFD726 /* GenericTableViewController.swift */,
+				D7F9F17427AF6AF700DFD726 /* CellDescriptor.swift */,
+			);
+			path = GenericTableView;
+			sourceTree = "<group>";
+		};
+		D7F9F17627AF80CF00DFD726 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				D7F9F0BF27AE0E8700DFD726 /* BuyList */,
+				D7F9F0C027AE0E9400DFD726 /* SellList */,
+				D7F9F17B27AF846F00DFD726 /* ProductItem+CellDescriptor.swift */,
+			);
+			path = ProductList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1012,15 +1056,18 @@
 				D7F9F0AD27AE0A5500DFD726 /* AnalyticsServiceImpl.swift in Sources */,
 				D7F9F0D127AE13C500DFD726 /* ObservableType+Ext.swift in Sources */,
 				D7F9F11627AE7EDC00DFD726 /* Reactive+Ext.swift in Sources */,
+				D7F9F17027AF05F800DFD726 /* GenericTableViewController.swift in Sources */,
 				D7F9F15227AEDDE100DFD726 /* SellListViewModel.swift in Sources */,
 				D7F9F0B127AE0A9400DFD726 /* String+Ext.swift in Sources */,
 				D7F9F0CC27AE0FFB00DFD726 /* RxBaseViewController.swift in Sources */,
 				D7F9F0BC27AE0B2900DFD726 /* ScreenCordinator.swift in Sources */,
+				D7F9F17527AF6AF700DFD726 /* CellDescriptor.swift in Sources */,
 				D7F9F0A327AE09EB00DFD726 /* ZhugeAnalytics.swift in Sources */,
 				D7F9F0B427AE0AB600DFD726 /* DependencyInjection.swift in Sources */,
 				D7F9F13E27AED2F700DFD726 /* UITableViewCell+Ext.swift in Sources */,
 				D7F9F0D327AE23AA00DFD726 /* UIWindow+Ext.swift in Sources */,
 				D7F9F12D27AECA8900DFD726 /* ProductItemCell.swift in Sources */,
+				D7F9F17E27AF88A500DFD726 /* Contact+CellDescriptor.swift in Sources */,
 				D7F9F09F27AE09C500DFD726 /* LocalAnalytics.swift in Sources */,
 				D7F9F10827AE754000DFD726 /* Optional+Ext.swift in Sources */,
 				D7F9F12427AE85AD00DFD726 /* ErrorTracker.swift in Sources */,
@@ -1031,6 +1078,7 @@
 				D7F9F14027AED32400DFD726 /* UITableView+Ext.swift in Sources */,
 				D7F9F0B927AE0B0C00DFD726 /* HomeViewController.swift in Sources */,
 				D7F9F0A927AE0A2A00DFD726 /* AnalyticsConstant.swift in Sources */,
+				D7F9F17C27AF846F00DFD726 /* ProductItem+CellDescriptor.swift in Sources */,
 				D7F9F11E27AE811000DFD726 /* LoadingViewHelper.swift in Sources */,
 				D7F9F09927AE095F00DFD726 /* BaseViewModel.swift in Sources */,
 				D7F9F0A727AE0A1A00DFD726 /* AnalyticsEventType.swift in Sources */,
@@ -1058,15 +1106,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F9F13A27AECF3100DFD726 /* BuyListUseCase.swift in Sources */,
-				D7F9F13827AECD3C00DFD726 /* BuyListRepository.swift in Sources */,
+				D7F9F13827AECD3C00DFD726 /* RemoteProductListRepository.swift in Sources */,
 				D7F9F13C27AECF3B00DFD726 /* BuyListUseCaseImpl.swift in Sources */,
-				D7F9F14627AEDC3700DFD726 /* SellListRepository.swift in Sources */,
+				D7F9F14627AEDC3700DFD726 /* LocalProductListRepository.swift in Sources */,
 				D7F9F0EF27AE314500DFD726 /* Contact.swift in Sources */,
 				D7F9F14C27AEDD3E00DFD726 /* SellListUseCase.swift in Sources */,
 				D7F9F13227AECC9800DFD726 /* ProductItem.swift in Sources */,
 				D7F9F0EB27AE2FE100DFD726 /* CallListUseCaseImpl.swift in Sources */,
 				D7F9F0EE27AE311F00DFD726 /* CallListUseCase.swift in Sources */,
-				D7F9F0F927AE327400DFD726 /* CallListRepository.swift in Sources */,
+				D7F9F0F927AE327400DFD726 /* RemoteCallListRepository.swift in Sources */,
 				D7F9F14E27AEDD6600DFD726 /* SellListUseCaseImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1084,17 +1132,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F9F10227AE36D400DFD726 /* ContactDTO.swift in Sources */,
-				D7F9F0F627AE324D00DFD726 /* NetworkCallListRepository.swift in Sources */,
-				D7F9F0F427AE324200DFD726 /* DummyCallListRepository.swift in Sources */,
+				D7F9F0F627AE324D00DFD726 /* RemoteCallListRepositoryImpl.swift in Sources */,
+				D7F9F0F427AE324200DFD726 /* RemoteCallListRepositoryDummy.swift in Sources */,
 				D7F9F15E27AEEDAC00DFD726 /* CoreDataStack.swift in Sources */,
 				D7F9F11127AE7A0700DFD726 /* DemoAPIs.swift in Sources */,
 				D7F9F16527AEF5F500DFD726 /* Data.xcdatamodeld in Sources */,
-				D7F9F13427AECD1B00DFD726 /* NetworkBuyListRepository.swift in Sources */,
+				D7F9F13427AECD1B00DFD726 /* RemoteProductListRepositoryImpl.swift in Sources */,
 				D7F9F15C27AEED3F00DFD726 /* ProductItemDTO.swift in Sources */,
-				D7F9F14427AEDC2300DFD726 /* DummySellListRepository.swift in Sources */,
+				D7F9F14427AEDC2300DFD726 /* LocalProductListRepositoryDummy.swift in Sources */,
 				D7F9F10A27AE771C00DFD726 /* APIClient.swift in Sources */,
-				D7F9F14227AEDC1400DFD726 /* CoreDataSellListRepository.swift in Sources */,
-				D7F9F13627AECD2600DFD726 /* DummyBuyListRepository.swift in Sources */,
+				D7F9F14227AEDC1400DFD726 /* CoreDataProductListRepositoryImpl.swift in Sources */,
+				D7F9F13627AECD2600DFD726 /* RemoteProductListRepositoryDummy.swift in Sources */,
 				D7F9F16027AEEF2500DFD726 /* BaseCoreData.swift in Sources */,
 				D7F9F16727AEF6E700DFD726 /* NSPersistentContainer+Ext.swift in Sources */,
 			);

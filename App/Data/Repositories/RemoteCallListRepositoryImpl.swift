@@ -1,5 +1,5 @@
 //
-//  NetworkCallListRepository.swift
+//  RemoteCallListRepositoryImpl.swift
 //  Data
 //
 //  Created by Nguyen Tien Dat on 2/5/22.
@@ -8,7 +8,7 @@
 import Domain
 import Moya
 
-public class NetworkCallListRepository: CallListRepository {
+public class RemoteCallListRepositoryImpl: RemoteCallListRepository {
     
     public init() {}
     

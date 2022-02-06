@@ -11,9 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="App" customModuleProvider="target">
             <connections>
-                <outlet property="btnBuyList" destination="1Fa-bn-gYU" id="vXs-DC-EuV"/>
-                <outlet property="btnCallList" destination="PjT-SI-eb9" id="ACX-io-kJx"/>
-                <outlet property="btnSellList" destination="Z8B-hl-IjE" id="hWA-iT-S7G"/>
+                <outlet property="btnBuyList" destination="Rea-cM-g46" id="8SC-e4-cCE"/>
+                <outlet property="btnCallList" destination="gmT-5E-sL4" id="Frl-8k-YAb"/>
+                <outlet property="btnSellList" destination="8Bi-0K-1OY" id="IzI-jV-e2J"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,22 +23,22 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="p1p-bL-VHS">
-                    <rect key="frame" x="169.5" y="389.5" width="75.5" height="117"/>
+                    <rect key="frame" x="179.5" y="391" width="55" height="114"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjT-SI-eb9">
-                            <rect key="frame" x="0.0" y="0.0" width="75.5" height="31"/>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Call List"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmT-5E-sL4">
+                            <rect key="frame" x="0.0" y="0.0" width="55" height="30"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Call List"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fa-bn-gYU">
-                            <rect key="frame" x="0.0" y="43" width="75.5" height="31"/>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Buy List"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rea-cM-g46">
+                            <rect key="frame" x="0.0" y="42" width="55" height="30"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Buy List"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-hl-IjE">
-                            <rect key="frame" x="0.0" y="86" width="75.5" height="31"/>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Sell List"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bi-0K-1OY">
+                            <rect key="frame" x="0.0" y="84" width="55" height="30"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Sell List"/>
                         </button>
                     </subviews>
                 </stackView>

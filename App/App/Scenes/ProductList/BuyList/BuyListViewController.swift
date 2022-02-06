@@ -1,5 +1,5 @@
 //
-//  CallListViewController.swift
+//  BuyListViewController.swift
 //  App
 //
 //  Created by Nguyen Tien Dat on 2/5/22.
@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import Domain
 
-final class CallListViewController: GenericTableViewController<CallListViewModel, Contact> {
+final class BuyListViewController: GenericTableViewController<BuyListViewModel, ProductItem> {
     
     override func bindingUI() {
         let viewLoaded = PublishSubject<Void>()
@@ -17,7 +17,7 @@ final class CallListViewController: GenericTableViewController<CallListViewModel
         let output = viewModel.transform(input: input)
         
         output
-            .contactList
+            .buyList
             .observe(on: MainScheduler.instance)
             .subscribe(with: self, onNext: {
                 $0.items = $1

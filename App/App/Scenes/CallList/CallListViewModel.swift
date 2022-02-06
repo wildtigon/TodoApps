@@ -30,6 +30,7 @@ final class CallListViewModel: BaseViewModel {
             
         return Output(
             contactList: contactList,
+            title: input.viewLoaded.map({_ in "Call List"}),
             loadingIndicator: loadingIndicator,
             errorTracker: errorTracker
         )
@@ -41,6 +42,7 @@ final class CallListViewModel: BaseViewModel {
     
     struct Output {
         let contactList: Observable<[Contact]>
+        let title: Observable<String>
         let loadingIndicator: ActivityIndicator
         let errorTracker: ErrorTracker
     }

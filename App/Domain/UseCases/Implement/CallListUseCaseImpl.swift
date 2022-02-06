@@ -9,8 +9,8 @@ import RxSwift
 
 public class CallListUseCaseImpl: CallListUseCase {
     
-    private let repo: CallListRepository
-    public init(with repo: CallListRepository) {
+    private let repo: RemoteCallListRepository
+    public init(with repo: RemoteCallListRepository) {
         self.repo = repo
     }
         

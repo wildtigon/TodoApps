@@ -21,62 +21,80 @@ final class DependencyInjection {
         // HOME
         container.register(HomeViewModel.self) { _ in  .init() }
         container.register(HomeViewController.self) { r in
-            let vm = r.resolve(HomeViewModel.self)!
-            return .init(viewModel: vm, analyticsService: analyticsService, nibName: "HomeViewController")
+            return HomeViewController(
+                viewModel: r.resolve(HomeViewModel.self)!,
+                analyticsService: analyticsService,
+                nibName: "HomeViewController"
+            )
         }
         
         // Call List
         container.register(CallListUseCase.self) { r in
-            let repo = r.resolve(CallListRepository.self)!
-            return CallListUseCaseImpl(with: repo)
+            return CallListUseCaseImpl(
+                with: r.resolve(RemoteCallListRepository.self)!
+            )
         }
         container.register(CallListViewModel.self) { r in
-            let useCase = r.resolve(CallListUseCase.self)!
-            return CallListViewModel(useCase: useCase)
+            return CallListViewModel(
+                useCase: r.resolve(CallListUseCase.self)!
+            )
         }
         container.register(CallListViewController.self) { r in
-            let viewModel = r.resolve(CallListViewModel.self)!
-            return CallListViewController(viewModel: viewModel)
+            return CallListViewController(
+                viewModel: r.resolve(CallListViewModel.self)!,
+                analyticsService: analyticsService,
+                cellDescriptor: CellDescriptor.contactCell
+            )
         }
         
         // Buy List
         container.register(BuyListUseCase.self) { r in
-            let repo = r.resolve(BuyListRepository.self)!
-            return BuyListUseCaseImpl(with: repo)
+            return BuyListUseCaseImpl(
+                with: r.resolve(RemoteProductListRepository.self)!
+            )
         }
         container.register(BuyListViewModel.self) { r in
-            let useCase = r.resolve(BuyListUseCase.self)!
-            return BuyListViewModel(useCase: useCase)
+            return BuyListViewModel(
+                useCase: r.resolve(BuyListUseCase.self)!
+            )
         }
         container.register(BuyListViewController.self) { r in
-            let viewModel = r.resolve(BuyListViewModel.self)!
-            return BuyListViewController(viewModel: viewModel)
+            return BuyListViewController(
+                viewModel: r.resolve(BuyListViewModel.self)!,
+                analyticsService: analyticsService,
+                cellDescriptor: CellDescriptor.productCell
+            )
         }
         
         // Sell List
         container.register(SellListUseCase.self) { r in
-            let repo = r.resolve(SellListRepository.self)!
-            return SellListUseCaseImpl(with: repo)
+            return SellListUseCaseImpl(
+                with: r.resolve(LocalProductListRepository.self)!
+            )
         }
         container.register(SellListViewModel.self) { r in
-            let useCase = r.resolve(SellListUseCase.self)!
-            return SellListViewModel(useCase: useCase)
+            return SellListViewModel(
+                useCase: r.resolve(SellListUseCase.self)!
+            )
         }
         container.register(SellListViewController.self) { r in
-            let viewModel = r.resolve(SellListViewModel.self)!
-            return SellListViewController(viewModel: viewModel)
+            return SellListViewController(
+                viewModel: r.resolve(SellListViewModel.self)!,
+                analyticsService: analyticsService,
+                cellDescriptor: CellDescriptor.productCell
+            )
         }
     }
     
     static private func configProduction() {
-        container.register(CallListRepository.self) { _ in NetworkCallListRepository() }
-        container.register(BuyListRepository.self) { _ in NetworkBuyListRepository() }
-        container.register(SellListRepository.self) { _ in CoreDataSellListRepository() }
+        container.register(RemoteCallListRepository.self) { _ in RemoteCallListRepositoryImpl() }
+        container.register(RemoteProductListRepository.self) { _ in RemoteProductListRepositoryImpl() }
+        container.register(LocalProductListRepository.self) { _ in CoreDataProductListRepositoryImpl() }
     }
     
     static private func configTest() {
-        container.register(CallListRepository.self) { _ in DummyCallListRepository() }
-        container.register(BuyListRepository.self) { _ in DummyBuyListRepository() }
-        container.register(SellListRepository.self) { _ in DummySellListRepository() }
+        container.register(RemoteCallListRepository.self) { _ in RemoteCallListRepositoryDummy() }
+        container.register(RemoteProductListRepository.self) { _ in RemoteProductListRepositoryDummy() }
+        container.register(LocalProductListRepository.self) { _ in LocalProductListRepositoryDummy() }
     }
 }

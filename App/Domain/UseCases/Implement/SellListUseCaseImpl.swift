@@ -9,8 +9,8 @@ import RxSwift
 
 public class SellListUseCaseImpl: SellListUseCase {
     
-    private let repo: SellListRepository
-    public init(with repo: SellListRepository) {
+    private let repo: LocalProductListRepository
+    public init(with repo: LocalProductListRepository) {
         self.repo = repo
     }
     

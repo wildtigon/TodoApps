@@ -9,8 +9,8 @@ import RxSwift
 
 public class BuyListUseCaseImpl: BuyListUseCase {
     
-    private let repo: BuyListRepository
-    public init(with repo: BuyListRepository) {
+    private let repo: RemoteProductListRepository
+    public init(with repo: RemoteProductListRepository) {
         self.repo = repo
     }
     

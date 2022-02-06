@@ -7,7 +7,7 @@
 
 import Domain
 
-public class DummyCallListRepository: CallListRepository {
+public class RemoteCallListRepositoryDummy: RemoteCallListRepository {
     public init() {}
     
     public func fetchContactList(completion: ((Result<[Contact], Error>) -> Void)) {

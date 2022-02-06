@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol SellListRepository {
+public protocol LocalProductListRepository {
     func fetchSellListItem(completion: @escaping((Result<[ProductItem], Error>) -> Void))
 }

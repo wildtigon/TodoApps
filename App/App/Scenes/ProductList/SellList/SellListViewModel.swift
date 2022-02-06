@@ -30,6 +30,7 @@ final class SellListViewModel: BaseViewModel {
             
         return Output(
             sellList: sellList,
+            title: input.viewLoaded.map({_ in "Sell List"}),
             loadingIndicator: loadingIndicator,
             errorTracker: errorTracker
         )
@@ -41,6 +42,7 @@ final class SellListViewModel: BaseViewModel {
     
     struct Output {
         let sellList: Observable<[ProductItem]>
+        let title: Observable<String>
         let loadingIndicator: ActivityIndicator
         let errorTracker: ErrorTracker
     }

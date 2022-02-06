@@ -12,15 +12,15 @@ final class ContactCell: UITableViewCell {
     @IBOutlet weak private var lblName: UILabel!
     @IBOutlet weak private var lblPhone: UILabel!
     
-    var titleName: String? {
+    var name: String? {
         didSet {
-            lblName.text = "Name: \(titleName.orEmpty)"
+            lblName.text = "Name: \(name.orEmpty)"
         }
     }
     
-    var titlePhone: String? {
+    var number: String? {
         didSet {
-            lblPhone.text = "Phone: \(titlePhone.orEmpty)"
+            lblPhone.text = "Phone: \(number.orEmpty)"
         }
     }
 }

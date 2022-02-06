@@ -26,8 +26,8 @@ extension DemoAPIs: TargetType {
     
     var path: String {
         switch self {
-        case .calllist: return "/call"
-        case .buylist: return "/buy"
+        case .calllist: return "call"
+        case .buylist: return "buy"
         }
     }
 }
