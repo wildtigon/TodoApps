@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D728CF1F27AF9A8B0077E185 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF1E27AF9A8B0077E185 /* RxCocoa */; };
+		D728CF2127AF9A8B0077E185 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2027AF9A8B0077E185 /* RxSwift */; };
+		D728CF2427AF9ACD0077E185 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2327AF9ACD0077E185 /* Moya */; };
+		D728CF2727AF9AFD0077E185 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2627AF9AFD0077E185 /* Swinject */; };
+		D728CF2A27AF9B150077E185 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = D728CF2927AF9B150077E185 /* NVActivityIndicatorView */; };
+		D728CF2E27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF2D27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift */; };
+		D728CF3227AF9FFB0077E185 /* ContactDTOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF3127AF9FFB0077E185 /* ContactDTOTest.swift */; };
+		D728CF3427AFA0B30077E185 /* ProductItemDTOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728CF3327AFA0B30077E185 /* ProductItemDTOTest.swift */; };
 		D7F9F01527AE073800DFD726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F01427AE073800DFD726 /* AppDelegate.swift */; };
 		D7F9F02127AE073900DFD726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F02027AE073900DFD726 /* Assets.xcassets */; };
 		D7F9F02427AE073900DFD726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F9F02227AE073900DFD726 /* LaunchScreen.storyboard */; };
@@ -17,11 +25,9 @@
 		D7F9F05F27AE07D600DFD726 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; };
 		D7F9F06027AE07D600DFD726 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D7F9F07527AE080D00DFD726 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F06D27AE080D00DFD726 /* Data.framework */; };
-		D7F9F07C27AE080D00DFD726 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F07B27AE080D00DFD726 /* DataTests.swift */; };
 		D7F9F07D27AE080D00DFD726 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F9F06F27AE080D00DFD726 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7F9F08027AE080D00DFD726 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F06D27AE080D00DFD726 /* Data.framework */; };
 		D7F9F08127AE080D00DFD726 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F06D27AE080D00DFD726 /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D7F9F08A27AE08B700DFD726 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D7F9F08927AE08B700DFD726 /* Swinject */; };
 		D7F9F09527AE093B00DFD726 /* ViewModelTransformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F09427AE093B00DFD726 /* ViewModelTransformable.swift */; };
 		D7F9F09727AE095600DFD726 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F09627AE095600DFD726 /* BaseViewController.swift */; };
 		D7F9F09927AE095F00DFD726 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F09827AE095F00DFD726 /* BaseViewModel.swift */; };
@@ -41,7 +47,6 @@
 		D7F9F0BE27AE0BA200DFD726 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0BD27AE0BA200DFD726 /* HomeViewModel.swift */; };
 		D7F9F0C327AE0EBF00DFD726 /* CallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0C227AE0EBF00DFD726 /* CallListViewController.swift */; };
 		D7F9F0C527AE0ED100DFD726 /* CallListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0C427AE0ED100DFD726 /* CallListViewModel.swift */; };
-		D7F9F0C827AE0FDB00DFD726 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D7F9F0C727AE0FDB00DFD726 /* RxCocoa */; };
 		D7F9F0CC27AE0FFB00DFD726 /* RxBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0CB27AE0FFB00DFD726 /* RxBaseViewController.swift */; };
 		D7F9F0D127AE13C500DFD726 /* ObservableType+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0D027AE13C500DFD726 /* ObservableType+Ext.swift */; };
 		D7F9F0D327AE23AA00DFD726 /* UIWindow+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F0D227AE23AA00DFD726 /* UIWindow+Ext.swift */; };
@@ -57,12 +62,9 @@
 		D7F9F0FB27AE32E600DFD726 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; };
 		D7F9F0FC27AE32E600DFD726 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7F9F04C27AE07D600DFD726 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D7F9F10227AE36D400DFD726 /* ContactDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F10127AE36D400DFD726 /* ContactDTO.swift */; };
-		D7F9F10627AE6F3000DFD726 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7F9F10527AE6F3000DFD726 /* RxSwift */; };
 		D7F9F10827AE754000DFD726 /* Optional+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F10727AE754000DFD726 /* Optional+Ext.swift */; };
 		D7F9F10A27AE771C00DFD726 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F10927AE771C00DFD726 /* APIClient.swift */; };
-		D7F9F10E27AE799700DFD726 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D7F9F10D27AE799700DFD726 /* Moya */; };
 		D7F9F11127AE7A0700DFD726 /* DemoAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F11027AE7A0700DFD726 /* DemoAPIs.swift */; };
-		D7F9F11427AE7E6B00DFD726 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = D7F9F11327AE7E6B00DFD726 /* NVActivityIndicatorView */; };
 		D7F9F11627AE7EDC00DFD726 /* Reactive+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F11527AE7EDC00DFD726 /* Reactive+Ext.swift */; };
 		D7F9F11927AE804300DFD726 /* UIViewController+Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F11827AE804300DFD726 /* UIViewController+Indicator.swift */; };
 		D7F9F11B27AE808400DFD726 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F9F11A27AE808400DFD726 /* UIViewController+Ext.swift */; };
@@ -186,6 +188,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D728CF2D27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProductListRepositoryTest.swift; sourceTree = "<group>"; };
+		D728CF3127AF9FFB0077E185 /* ContactDTOTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDTOTest.swift; sourceTree = "<group>"; };
+		D728CF3327AFA0B30077E185 /* ProductItemDTOTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemDTOTest.swift; sourceTree = "<group>"; };
 		D7F9F01127AE073800DFD726 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9F01427AE073800DFD726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F9F02027AE073900DFD726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,7 +205,6 @@
 		D7F9F06D27AE080D00DFD726 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F9F06F27AE080D00DFD726 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		D7F9F07427AE080D00DFD726 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F9F07B27AE080D00DFD726 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
 		D7F9F09427AE093B00DFD726 /* ViewModelTransformable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTransformable.swift; sourceTree = "<group>"; };
 		D7F9F09627AE095600DFD726 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D7F9F09827AE095F00DFD726 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
@@ -278,11 +282,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D728CF1F27AF9A8B0077E185 /* RxCocoa in Frameworks */,
+				D728CF2A27AF9B150077E185 /* NVActivityIndicatorView in Frameworks */,
 				D7F9F08027AE080D00DFD726 /* Data.framework in Frameworks */,
-				D7F9F11427AE7E6B00DFD726 /* NVActivityIndicatorView in Frameworks */,
 				D7F9F05F27AE07D600DFD726 /* Domain.framework in Frameworks */,
-				D7F9F0C827AE0FDB00DFD726 /* RxCocoa in Frameworks */,
-				D7F9F08A27AE08B700DFD726 /* Swinject in Frameworks */,
+				D728CF2727AF9AFD0077E185 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +301,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F9F10627AE6F3000DFD726 /* RxSwift in Frameworks */,
+				D728CF2127AF9A8B0077E185 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +317,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F9F10E27AE799700DFD726 /* Moya in Frameworks */,
+				D728CF2427AF9ACD0077E185 /* Moya in Frameworks */,
 				D7F9F0FB27AE32E600DFD726 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +333,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D728CF2C27AF9C230077E185 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D728CF2F27AF9E950077E185 /* Database */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		D728CF2F27AF9E950077E185 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D728CF2D27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		D728CF3027AF9FEC0077E185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D728CF3127AF9FFB0077E185 /* ContactDTOTest.swift */,
+				D728CF3327AFA0B30077E185 /* ProductItemDTOTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D7F9F00827AE073800DFD726 = {
 			isa = PBXGroup;
 			children = (
@@ -411,7 +440,8 @@
 		D7F9F07A27AE080D00DFD726 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7F9F07B27AE080D00DFD726 /* DataTests.swift */,
+				D728CF3027AF9FEC0077E185 /* Model */,
+				D728CF2C27AF9C230077E185 /* Repositories */,
 			);
 			path = DataTests;
 			sourceTree = "<group>";
@@ -819,9 +849,9 @@
 			);
 			name = App;
 			packageProductDependencies = (
-				D7F9F08927AE08B700DFD726 /* Swinject */,
-				D7F9F0C727AE0FDB00DFD726 /* RxCocoa */,
-				D7F9F11327AE7E6B00DFD726 /* NVActivityIndicatorView */,
+				D728CF1E27AF9A8B0077E185 /* RxCocoa */,
+				D728CF2627AF9AFD0077E185 /* Swinject */,
+				D728CF2927AF9B150077E185 /* NVActivityIndicatorView */,
 			);
 			productName = App;
 			productReference = D7F9F01127AE073800DFD726 /* App.app */;
@@ -860,7 +890,7 @@
 			);
 			name = Domain;
 			packageProductDependencies = (
-				D7F9F10527AE6F3000DFD726 /* RxSwift */,
+				D728CF2027AF9A8B0077E185 /* RxSwift */,
 			);
 			productName = Domain;
 			productReference = D7F9F04C27AE07D600DFD726 /* Domain.framework */;
@@ -902,7 +932,7 @@
 			);
 			name = Data;
 			packageProductDependencies = (
-				D7F9F10D27AE799700DFD726 /* Moya */,
+				D728CF2327AF9ACD0077E185 /* Moya */,
 			);
 			productName = Data;
 			productReference = D7F9F06D27AE080D00DFD726 /* Data.framework */;
@@ -972,11 +1002,10 @@
 			);
 			mainGroup = D7F9F00827AE073800DFD726;
 			packageReferences = (
-				D7F9F08827AE08B700DFD726 /* XCRemoteSwiftPackageReference "Swinject" */,
-				D7F9F08B27AE08CE00DFD726 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				D7F9F0C627AE0FDB00DFD726 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				D7F9F10C27AE799700DFD726 /* XCRemoteSwiftPackageReference "Moya" */,
-				D7F9F11227AE7E6B00DFD726 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D728CF2227AF9ACD0077E185 /* XCRemoteSwiftPackageReference "Moya" */,
+				D728CF2527AF9AFD0077E185 /* XCRemoteSwiftPackageReference "Swinject" */,
+				D728CF2827AF9B140077E185 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
 			);
 			productRefGroup = D7F9F01227AE073800DFD726 /* Products */;
 			projectDirPath = "";
@@ -1152,7 +1181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F9F07C27AE080D00DFD726 /* DataTests.swift in Sources */,
+				D728CF3227AF9FFB0077E185 /* ContactDTOTest.swift in Sources */,
+				D728CF2E27AF9C890077E185 /* CoreDataProductListRepositoryTest.swift in Sources */,
+				D728CF3427AFA0B30077E185 /* ProductItemDTOTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1398,7 +1429,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApps.app/TodoApps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Debug;
 		};
@@ -1417,7 +1448,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApps.app/TodoApps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Release;
 		};
@@ -1500,7 +1531,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApps.app/TodoApps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Debug;
 		};
@@ -1518,7 +1549,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApps.app/TodoApps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Release;
 		};
@@ -1601,7 +1632,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApps.app/TodoApps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Debug;
 		};
@@ -1619,7 +1650,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApps.app/TodoApps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/App";
 			};
 			name = Release;
 		};
@@ -1692,23 +1723,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D7F9F08827AE08B700DFD726 /* XCRemoteSwiftPackageReference "Swinject" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Swinject/Swinject.git";
-			requirement = {
-				kind = exactVersion;
-				version = 2.0.0;
-			};
-		};
-		D7F9F08B27AE08CE00DFD726 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = exactVersion;
-				version = 5.5.0;
-			};
-		};
-		D7F9F0C627AE0FDB00DFD726 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -1716,7 +1731,7 @@
 				version = 6.5.0;
 			};
 		};
-		D7F9F10C27AE799700DFD726 /* XCRemoteSwiftPackageReference "Moya" */ = {
+		D728CF2227AF9ACD0077E185 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
 			requirement = {
@@ -1724,7 +1739,15 @@
 				kind = branch;
 			};
 		};
-		D7F9F11227AE7E6B00DFD726 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+		D728CF2527AF9AFD0077E185 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.8.1;
+			};
+		};
+		D728CF2827AF9B140077E185 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
 			requirement = {
@@ -1735,29 +1758,29 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D7F9F08927AE08B700DFD726 /* Swinject */ = {
+		D728CF1E27AF9A8B0077E185 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D7F9F08827AE08B700DFD726 /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = Swinject;
-		};
-		D7F9F0C727AE0FDB00DFD726 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D7F9F0C627AE0FDB00DFD726 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		D7F9F10527AE6F3000DFD726 /* RxSwift */ = {
+		D728CF2027AF9A8B0077E185 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D7F9F0C627AE0FDB00DFD726 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = D728CF1D27AF9A8B0077E185 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		D7F9F10D27AE799700DFD726 /* Moya */ = {
+		D728CF2327AF9ACD0077E185 /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D7F9F10C27AE799700DFD726 /* XCRemoteSwiftPackageReference "Moya" */;
+			package = D728CF2227AF9ACD0077E185 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
 		};
-		D7F9F11327AE7E6B00DFD726 /* NVActivityIndicatorView */ = {
+		D728CF2627AF9AFD0077E185 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D7F9F11227AE7E6B00DFD726 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			package = D728CF2527AF9AFD0077E185 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		D728CF2927AF9B150077E185 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D728CF2827AF9B140077E185 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
 			productName = NVActivityIndicatorView;
 		};
 /* End XCSwiftPackageProductDependency section */

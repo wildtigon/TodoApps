@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D7F9F01027AE073800DFD726"
-               BuildableName = "TodoApps.app"
+               BuildableName = "App.app"
                BlueprintName = "App"
                ReferencedContainer = "container:TodoApps.xcodeproj">
             </BuildableReference>
@@ -26,25 +26,40 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D7F9F01027AE073800DFD726"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:TodoApps.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D7F9F06C27AE080D00DFD726"
+            BuildableName = "Data.framework"
+            BlueprintName = "Data"
+            ReferencedContainer = "container:TodoApps.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D7F9F04B27AE07D600DFD726"
+            BuildableName = "Domain.framework"
+            BlueprintName = "Domain"
+            ReferencedContainer = "container:TodoApps.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D7F9F02927AE073900DFD726"
-               BuildableName = "TodoAppsTests.xctest"
+               BuildableName = "AppTests.xctest"
                BlueprintName = "AppTests"
-               ReferencedContainer = "container:TodoApps.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7F9F03327AE073900DFD726"
-               BuildableName = "AppUITests.xctest"
-               BlueprintName = "TodoAppsUITests"
                ReferencedContainer = "container:TodoApps.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -85,7 +100,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7F9F01027AE073800DFD726"
-            BuildableName = "TodoApps.app"
+            BuildableName = "App.app"
             BlueprintName = "App"
             ReferencedContainer = "container:TodoApps.xcodeproj">
          </BuildableReference>
@@ -102,7 +117,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D7F9F01027AE073800DFD726"
-            BuildableName = "TodoApps.app"
+            BuildableName = "App.app"
             BlueprintName = "App"
             ReferencedContainer = "container:TodoApps.xcodeproj">
          </BuildableReference>
