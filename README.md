@@ -4,7 +4,7 @@
 
 
 ## Installation
-All you need to do is open TodoApps.xcodeproj, wait for dependencies synchoronized then run it on device/simulator.
+All you need to do is open TodoApps.xcodeproj, wait for dependencies are synchoronized then run it on device/simulator.
 
 ## License
 
